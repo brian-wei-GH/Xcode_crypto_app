@@ -19,6 +19,8 @@ import Foundation
 
  history data: (bitcon as example)
  https://api.coinpaprika.com/v1/tickers/btc-bitcoin/historical?start=2025-04-01&end=2025-04-10&interval=1d
+ 
+ the website name: coinpaprika.com
  */
 
 // OR
@@ -27,6 +29,7 @@ import Foundation
  coingecko:
  https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h
 
+ the website name: coingecko.com
  */
 
 // using: https://app.quicktype.io/ to write it faster
