@@ -28,7 +28,7 @@ class CoinImageService: ObservableObject {
         if let saveImage = fileManager.getImageAPI(imageName: coin.id, folderName: folderName) {
             self.image = saveImage
             // debug code
-            //print("get image from FileManager")
+            print("get image from FileManager")
         } else {
             await downloadCoinImage(urlString: coin.image)
         }
@@ -53,7 +53,7 @@ class CoinImageService: ObservableObject {
             if let downloadedImage = UIImage(data: data) {
                 self.image = downloadedImage
                 // debug code
-                //print("download image from api")
+                print("download image from api")
                 fileManager.saveImageAPI(image: downloadedImage, imageName: coin.id, folderName: folderName)
             } else {
                 print("Error: Failed to convert data to UIImage")
