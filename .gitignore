@@ -53,3 +53,7 @@ playground.xcworkspace
 # Firebase / GoogleService Info
 GoogleService-Info.plist
 
+# Core Data
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
