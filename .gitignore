@@ -1,0 +1,55 @@
+# macOS metadata
+.DS_Store
+
+# Xcode user settings
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcuserdatad
+*.xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Derived data & build
+DerivedData/
+build/
+Build/
+*.hmap
+*.ipa
+*.app
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+fastlane/tmp
+
+# Xcode project index
+.idea/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# Simulator logs
+core_simulator_device.log
+
+# Archives
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Firebase / GoogleService Info
+GoogleService-Info.plist
+
